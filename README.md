@@ -1,1 +1,2 @@
-# hacker-rank-ps
+# Hacker Rank
+## Problem Solving Algorithms Solutions
