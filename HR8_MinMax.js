@@ -1,8 +1,7 @@
 let arr = [1,2,3,4,5]
 
-
 function miniMaxSum(arr) {
-    let newArray = [0]
+    let newArray = []
     let subArr = []
     let min = 0
     let max = 0
@@ -14,7 +13,7 @@ function miniMaxSum(arr) {
         }
         subArr.push(sum)
     }
-    min = Math.min(...subArr)
+    min = Math.min(...subArr) //The JavaScript spread operator (...) allows us to quickly copy all or part of an existing array or object into another array or object.
     max = Math.max(...subArr)
     console.log(min,max)
 }         
