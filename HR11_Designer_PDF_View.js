@@ -5,21 +5,19 @@ let wordPosition =[]
 let hPosition = []
 let max
 
-for (let i = 0; i < word.length; i++) { 
-    let result
-    result = alpha.indexOf(word[i]) //tipo um PROCV que busca no ARRAY o valor de cada letra da Sting 'torn'e retorna a posição Index
-    wordPosition.push(result)
-}
+function designerPdfViewer(h, word) {
+    for (let i = 0; i < word.length; i++) { 
+        let result
+        result = alpha.indexOf(word[i])
+        wordPosition.push(result)
+    }
+    
+    for (let j = 0; j < wordPosition.length; j++) {
+        hPosition.push(h[wordPosition[j]])
+        max = Math.max(...hPosition)
+        max = max * word.length
+    }
+    return max
 
-for (let j = 0; j < wordPosition.length; j++) {
-    hPosition.push(h[wordPosition[j]])
-    max = Math.max(...hPosition)
-    max = max * word.length
-}
-console.log(max)
-
-
-
-
-
+} designerPdfViewer(h, word)
 
