@@ -1,0 +1,24 @@
+{
+  "name": "hacker-rank-ps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "HR10_Time_Convert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrcsporto/hacker-rank-ps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrcsporto/hacker-rank-ps/issues"
+  },
+  "homepage": "https://github.com/mrcsporto/hacker-rank-ps#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  },
+  "devDependencies": {}
+}
